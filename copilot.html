@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FreshMart Grocery Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f8f8f8;
+            font-size: 16px;
+        }
+        header {
+            background: #4caf50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        nav {
+            background: #388e3c;
+            padding: 10px 0;
+            text-align: center;
+            font-size: 1em;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1em;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .product {
+            background: #f1f8e9;
+            border: 1px solid #c8e6c9;
+            border-radius: 8px;
+            width: 160px;
+            padding: 15px;
+            text-align: center;
+            font-size: 1em;
+        }
+        .product img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+        }
+        footer {
+            background: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+            font-size: 0.95em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FreshMart Grocery Store</h1>
+        <p>Your one-stop shop for fresh groceries!</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Deals</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Featured Products</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=200&q=80" alt="Fresh Apples">
+                <h3>Fresh Apples</h3>
+                <p>$2.99 / lb</p>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=200&q=80" alt="Organic Bananas">
+                <h3>Organic Bananas</h3>
+                <p>$1.49 / lb</p>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=200&q=80" alt="Fresh Milk">
+                <h3>Fresh Milk</h3>
+                <p>$3.49 / gallon</p>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=200&q=80" alt="Brown Bread">
+                <h3>Brown Bread</h3>
+                <p>$2.29 / loaf</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 FreshMart Grocery Store. All rights reserved.
+    </footer>
+</body>
+</html>
