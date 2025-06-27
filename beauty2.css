@@ -1,0 +1,84 @@
+body{
+    font-family; Arial, sans-serif;
+    background-color: #e2bbbb;
+    margin: 0;
+    padding: 0px; 
+    
+    }
+
+header{
+    background-color: deeppink;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    }
+.container{
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    color:black;
+    background-image: url(parlor.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+.service{
+    background-color: whitesmoke;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+.hero{
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;}
+
+    .hero3{
+    color: green;
+}
+.book-now-btn {
+    background: linear-gradient(90deg, #ff69b4 0%, #ffb347 100%);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 40px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.2);
+    transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+    letter-spacing: 1px;
+}
+
+.book-now-btn:hover {
+    background: linear-gradient(90deg, #ffb347 0%, #ff69b4 100%);
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 24px rgba(255, 105, 180, 0.3);
+}
+ footer {
+        background: #f8e1f4;
+        color: #6d2177;
+        padding: 30px 0 10px 0;
+        text-align: center;
+        font-size: 1.1em;
+        border-top: 3px solid #d1a3d7;
+        margin-top: 40px;
+        position: relative;
+    }
