@@ -12,7 +12,7 @@ header {
     border-radius: 10px;
 }
 
-nav a{
+nav a {
     color: white;
     padding: 10px 15px;
     margin: 0 15px;
@@ -21,6 +21,8 @@ nav a{
     display: inline-block;
     vertical-align: middle;
 }
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: #01162b;
@@ -30,16 +32,16 @@ body {
     text-align: center;
 }
 
-
 .search-container {
     display: flex;
     align-items: center;
     background-color: #02203a;
     padding: 6px 12px;
     border-radius: 25px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     margin: 10px auto;
     max-width: 350px;
+
 }
 
 .search-container input[type="text"] {
@@ -61,15 +63,17 @@ body {
     border-radius: 0 20px 20px 0;
     cursor: pointer;
     font-weight: bold;
-    transition: background 0.2s;}
+    transition: background 0.2s;
+}
 
- 
 .login-container1 {
     display: flex;
     align-items: center;
     margin-left: auto;
 }
-.login-button, .signup-button {
+
+.login-button,
+.signup-button {
     background-color: #0a5cff;
     color: white;
     border: none;
@@ -78,12 +82,13 @@ body {
     cursor: pointer;
     margin-left: 10px;
     font-weight: bold;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.Gamer{
+
+.Gamer {
     background: linear-gradient(90deg, #0a5cff 0%, #01162b 100%);
     color: #fff;
-    padding: 18px ;
+    padding: 18px;
     border-radius: 12px;
     font-size: 1.2rem;
     font-family: 'Orbitron', Arial, sans-serif;
@@ -95,16 +100,16 @@ body {
     border: 2px solid #0a5cff;
     transition: background 0.3s, color 0.3s, box-shadow 0.3s;
 }
+
 .hero {
     background-image: url(gaming.jpeg);
     color: white;
     padding: 40px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(10, 92, 255, 0.2);
-    margin:auto;
-    max-width:none
+    margin: auto;
+    max-width: none
 }
-
 
 footer {
     background-color: #010e1b;
@@ -117,6 +122,7 @@ footer {
     font-family: Arial, sans-serif;
     box-shadow: inset 0 -2px 10px rgba(0, 0, 0, 0.5);
 }
+
 .game-item {
     display: flex;
     flex-direction: column;
@@ -124,7 +130,7 @@ footer {
     align-items: center;
     background: #02203a;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
     padding: 18px 20px;
     margin: 18px;
     width: 180px;
@@ -146,4 +152,30 @@ footer {
 .game-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 16px rgba(10, 92, 255, 0.2);
+    Add commentMore actions
+}
+
+.game-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin: 32px auto;
+    max-width: 1200px;
+    padding: 0;
+    list-style: none;
+}
+
+.about {
+    background: linear-gradient(120deg, #0a5cff 0%, #01162b 100%);
+    color: #fff;
+    padding: 32px 24px;
+    border-radius: 14px;
+    max-width: 700px;
+    margin: 32px auto;
+    font-size: 1.15rem;
+    box-shadow: 0 4px 18px rgba(10, 92, 255, 0.15);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.7;
+    text-align: left;
 }
