@@ -164,7 +164,7 @@ footer {
 }
 
 .about {
-    background: linear-gradient(90deg, #02203a 0%, #0a5cff 100%);
+    background:linear-gradient(320deg,  #01162b 87%, #1040a0 100%);
     color: #fff;
     padding: 28px 32px;
     border-radius: 12px;
@@ -172,26 +172,10 @@ footer {
     font-family: 'Segoe UI', Arial, sans-serif;
     box-shadow: 0 4px 16px rgba(10, 92, 255, 0.15);
     margin: 32px auto;
-    max-width: 700px;
+    max-width: none;
     text-align: left;
     line-height: 1.7;
     border: 2px solid #0a5cff;
     letter-spacing: 1px;
-    transition: background 0.3s, box-shadow 0.3s;
-}
-.news {
-    background: linear-gradient(90deg, #0a5cff 0%, #02203a 100%);
-    color: #fff;
-    padding: 24px 28px;
-    border-radius: 10px;
-    font-size: 1.05rem;
-    font-family: 'Segoe UI', Arial, sans-serif;
-    box-shadow: 0 4px 14px rgba(10, 92, 255, 0.13);
-    margin: 28px auto;
-    max-width: 650px;
-    text-align: left;
-    line-height: 1.6;
-    border: 2px solid #0a5cff;
-    letter-spacing: 0.5px;
     transition: background 0.3s, box-shadow 0.3s;
 }
